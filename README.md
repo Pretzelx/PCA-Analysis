@@ -22,7 +22,7 @@ The dataset used is `uniprotkb_organism_id_9606_AND_reviewed_2024_09_03.tsv`, wh
 
 4. **Clustering**:
    - **KMeans Clustering** was performed with different numbers of clusters to determine the optimal number using the elbow method.
-   - **Optimal Clusters**: Based on the elbow method, 2 clusters were chosen for the final analysis.
+   - **Optimal Clusters**: Based on the elbow method, 4 clusters were chosen for the final analysis.
 
 5. **Dimensionality Reduction**:
    - **PCA (Principal Component Analysis)** was used to reduce the feature space to 2 dimensions for visualization.
@@ -42,7 +42,8 @@ The dataset used is `uniprotkb_organism_id_9606_AND_reviewed_2024_09_03.tsv`, wh
 2. **PCA Clustering Plot**:
    - The PCA plot visualizes the clustering results in 2D space. Each point represents a protein sequence, colored by its assigned cluster.
 
-   ![image](https://github.com/user-attachments/assets/6e13e8dd-2d51-4042-8627-86f8f0b296fb)
+![image](https://github.com/user-attachments/assets/e057b937-33cd-43ce-89e5-0c509fc386eb)
+
 
 
 ## Interpretation
